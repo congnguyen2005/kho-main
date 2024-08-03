@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" type="png" href="image/traitym.png">
+    <link rel="stylesheet" href="mail.css">
+    <title>Gửi em!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="warpper preloading">
+        <div class="box">
+            <div class="mail">
+                <div class="heart">
+                    <img src="image/tym.png" alt="">
+                    <img src="image/tym.png" alt="">
+                    <img src="image/tym.png" alt="">
+                    <img src="image/tym.png" alt="">
+                    <img src="image/tym.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">
+                        <h2>Gửi người tôi thương!</h2>
+                    </div>
+                    <p>
+                        Khi nhìn vào đôi mắt em, tôi thấy một thế giới mà tôi chưa bao giờ biết đến, một thế giới tràn ngập ánh sáng và hy vọng. Em là nguồn cảm hứng, là niềm vui và là tất cả những gì tôi đã từng mơ ước. Mỗi khoảnh khắc bên em đều trở nên quý giá, và tôi không thể tưởng tượng cuộc sống của mình thiếu đi sự hiện diện của em. Em khiến tôi cảm thấy mình được yêu thương và trân trọng, và tôi muốn dành cả cuộc đời mình để làm cho em cảm thấy hạnh phúc. Tình yêu của tôi dành cho em không chỉ là một cảm xúc nhất thời, mà là một cam kết sâu sắc và chân thành. Tôi hứa sẽ luôn bên em, ủng hộ em và yêu em bằng cả trái tim mình.
+                    </p>
+                    <button class="custom-button" class="animate-button"
+                     style="display:block; margin:0 auto;">click tại đây</button>
+                </div>
+            </div>
+        </div>
+        <div class="loader-wrapper">
+            <div class="loader">
+                <div class="inner one" style="--i:1;"></div>
+                <div class="inner two" style="--i:1;"></div>
+                <div class="inner three" style="--i:1;"></div>
+                <div class="box-heart">
+                    <div class="heartLoader"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <audio src="sound/Chi-Muon-Ben-Em-That-Gan.mp3" autoplay></audio>
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script>
+        $(window).on('load', function(event){
+        $('body').removeClass('preloading');
+        $('.loader-wrapper').delay(1000).fadeOut('fast');
+    });
+    </script>
+    <script src="script.js"></script>
+</html>
